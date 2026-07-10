@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4ec96;
+    color: #1B1F5C;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+header {
+    padding: 35px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1B1F5C;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #6A5ACD;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #1B1F5C;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.social a:hover {
+    color: #6A5ACD;
+}
+
+
+
+.hero {
+    padding: 70px 0 120px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.hello {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 {
+    font-size: 88px;
+    line-height: 92px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.country {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #1B1F5C;
+    border: 2px solid #B8A94B;
+    padding: 15px 38px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #1B1F5C;
+    color: white;
+}
+
+.hero-image img {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #E5D7A3;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    transition: transform  0.5 ease;
+    border: 1px solid white;
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    margin-left: 60px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+
+    
+}
+
+.container{
+display: flex;
+gap: 50px;
+
+}
+
+.about{
+padding: 10px;
+margin-left: 60px;
+font-size: 20px;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.2) rotate(15deg);
+    transition: 0.5s;
+}
+.card img{
+    padding: 0;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+
+.content{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding: 15px;
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: rgb(15, 15, 40);
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.containerwork h2{
+padding: 50px;
+margin-left: 60px;
+font-size: 30px;
+}
+
+.containerwork h1{
+padding: 10px;
+margin-left: 60px;
+font-size:20px ;
+color: rgb(98, 92, 92);
+}
+
+.project1 img{
+    width: 600px;
+padding: 30px;
+margin-left:50px ;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.project1 img:hover{
+transform: scale(1.05);
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+.project1 p{
+width: 600px;
+margin-left: 71px;
+}
+
+.containerr h3{
+width: 600px;
+margin-left: 71px;
+color: rgb(191, 68, 78);
+position: relative;
+top: -20px;
+font-size: 30px;
+}
+
+.containerr{
+display: flex;
+gap: 50px;
+}
+
+.priject2 img{
+    width: 600px;
+padding: 30px;
+margin-left:50px ;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.priject2 img:hover{
+transform: scale(1.05);
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+.priject2 p{
+width: 600px;
+margin-left: 71px;
+}
+
+footer {
+    background: rgb(28, 10, 59);
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item i {
+    font-size: 30px;
+    color: #ff4d88;
+    margin-bottom: 10px;
+}
+
+.footer-item h4 {
+    margin-bottom: 10px;
+}
+
+.footer-item p {
+    color: #d1d5db;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #374151;
+    padding-top: 15px;
+}
+
+#work{
+    margin-top: 280px;
+}
