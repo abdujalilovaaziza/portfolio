@@ -16,17 +16,13 @@ body {
     color: #1B1F5C;
 }
 
-.container {
-    width: 1100px;
-    margin: 0 auto;
-}
 
 
-header {
+.header {
     padding: 35px 0;
 }
 
-header .container {
+ .header__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +74,7 @@ nav a:hover {
     padding: 70px 0 120px;
 }
 
-.hero-content {
+.hero__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,16 +146,32 @@ nav a:hover {
     
 }
 
-.container{
+.about__cards{
 display: flex;
-gap: 50px;
+
+padding: 70px 0 100px;
+justify-content: center;
+
 
 }
 
 .about{
+    
+display: flex;
+gap: 50px;
+
+    
+}
+
+.about__container {
 padding: 10px;
-margin-left: 60px;
+
 font-size: 20px;
+}
+.about__container h2{
+    display: flex;
+    justify-content: start;
+
 }
 
 
@@ -195,41 +207,48 @@ button{
     cursor: pointer;
 }
 
-.containerwork h2{
-padding: 50px;
-margin-left: 60px;
+.container__work h2{
+
 font-size: 30px;
 }
 
-.containerwork h1{
-padding: 10px;
-margin-left: 60px;
+
+
+.container__work h1{
+
+padding-top: 40px;
+padding-bottom: 40px;
 font-size:20px ;
 color: rgb(98, 92, 92);
 }
 
-.project1 img{
+.project img{
     width: 600px;
-padding: 30px;
-margin-left:50px ;
+
+
 border-radius: 15px;
 transition: 0.3s;
 }
 
-.project1 img:hover{
+.project img:hover{
 transform: scale(1.05);
 box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 
-.project1 p{
+.project p{
 width: 600px;
-margin-left: 71px;
+
+}
+
+.project h3{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .containerr h3{
 width: 600px;
-margin-left: 71px;
+
 color: rgb(191, 68, 78);
 position: relative;
 top: -20px;
@@ -241,29 +260,15 @@ display: flex;
 gap: 50px;
 }
 
-.priject2 img{
-    width: 600px;
-padding: 30px;
-margin-left:50px ;
-border-radius: 15px;
-transition: 0.3s;
-}
-
-.priject2 img:hover{
-transform: scale(1.05);
-box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-}
 
 
-.priject2 p{
-width: 600px;
-margin-left: 71px;
-}
+
 
 footer {
     background: rgb(28, 10, 59);
     color: white;
     padding: 40px 20px;
+    margin-top: 50px;
 }
 
 .footer-container {
