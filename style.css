@@ -378,9 +378,9 @@ gap: 50px;
     margin-bottom:30px;
 }
 
-.contact-left img{
+.contact-image{
     width:280px;
-    mix-blend-mode: darken;
+    mix-blend-mode: darken ;
 }
 
 .contact-right{
