@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -91,7 +92,7 @@
 
             </div>
 
-            <div class="hero-image">
+            <div class="hero-image" data-aos="flip-right" data-aos-duration="28000">
 
                 <img src="./mee.jpg" alt="Profile">
 
@@ -114,7 +115,7 @@
             
 
             <div class="about__cards">
-                <div class="card">
+                <div class="card"data-aos="fade-up" data-aos-duration="28000">
             <img src="./mama.jpg" alt="">
             <div class="content">
                 <h2>Onam</h2>
@@ -125,7 +126,7 @@
 
         
 
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-duration="28000">
             <img src="./adam.jpg" alt="">
             <div class="content">
                 <h2>Adam</h2>
@@ -135,7 +136,7 @@
         
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="28000">
             <img src="./muhammad.jpg" alt="">
             <div class="content">
                 <h2>Ukam</h2>
@@ -149,15 +150,16 @@
     </section>
 
     <section class="skills" id="skills">
-
+<div class="animation" data-aos="fade-up"> 
     <h2 class="skills-title">Skills💛</h2>
+    </div>
     <p class="skills-text">
         Mening qiziqishlarim va rivojlantirayotgan yo'nalishlarim.
     </p>
 
     <div class="skills-container">
 
-        <div class="skill-card">
+        <div class="skill-card" data-aos="fade-up-right" data-aos-duration="30000">
             <img src="./skills.jpg" alt="">
             <h3>Mobilografiya</h3>
             <span></span>
@@ -166,7 +168,7 @@
             </p>
         </div>
 
-        <div class="skill-card">
+        <div class="skill-card" data-aos="fade-up-left" data-aos-duration="30000">
             <img src="./photo_2026-07-15_21-10-33.jpg" alt="">
             <h3>IT</h3>
             <span></span>
@@ -195,7 +197,7 @@
     
         <div class="containerr">
             
-<div class="project">
+<div class="project" data-aos="zoom-in">
     <a target="_self" href="https://azaa-shop.vercel.app/"><img src="./p.jpg" alt=""></a>
 
             <h3>
@@ -207,7 +209,7 @@
 
 </div>
 
-    <div class="project">
+    <div class="project" data-aos="zoom-in">
         <a target="_self" href="https://mebel-delta-henna.vercel.app/"><img src="./зкщо.jpg" alt=""></a>
 
             <h3>
@@ -228,7 +230,7 @@ Bu saytda uy sotib olmoqchi bo'lgan insonlar uchun saytni loyiha tariqasida qilg
 </div>
     </section>
     <section class="contact" id="contact">
-    <div class="contact-left">
+    <div class="contact-left" data-aos="fade-right">
         
         
 
@@ -242,7 +244,7 @@ Bu saytda uy sotib olmoqchi bo'lgan insonlar uchun saytni loyiha tariqasida qilg
         <img src="./fon3.jpg" alt="Contact">
     </div>
 
-    <div class="contact-right">
+    <div class="contact-right" data-aos="fade-left">
         <h3>Xabar qoldiring 💖</h3>
 
         <form>
@@ -261,7 +263,7 @@ Bu saytda uy sotib olmoqchi bo'lgan insonlar uchun saytni loyiha tariqasida qilg
 </section>
 
     <footer>
-    <div class="footer-container">
+    <div class="footer-container" data-aos="zoom-in">
 
         <div class="footer-item">
             <h4>📞 TELEFON</h4>
@@ -289,6 +291,10 @@ Bu saytda uy sotib olmoqchi bo'lgan insonlar uchun saytni loyiha tariqasida qilg
         <p>Aziza Abdujalilova.</p>
     </div>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
         
 
     
